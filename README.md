@@ -1,4 +1,4 @@
-Bug report: 
+Bug report: https://issues.apache.org/jira/browse/MSHADE-402
 
 `mvn install` should put apache-commons-csv.jar contents inside `number-adder-1.0-SNAPSHOT-tests.jar` 
 because of the shade plugin as specified. Particularly `<shadeTestJar>true</shadeTestJar>`
